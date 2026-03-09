@@ -41,6 +41,7 @@ export default function StoryOverlays() {
       <motion.div 
         id="overview"
         style={{ opacity: heroOpacity, y: heroY }}
+        initial={{ opacity: 1, y: 0 }}
         className="fixed inset-x-0 top-[15%] md:top-[15%] flex flex-col items-center text-center px-4 md:px-6"
       >
         <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold tracking-tight text-white mb-2 md:mb-4">
@@ -58,6 +59,7 @@ export default function StoryOverlays() {
       <motion.div 
         id="technology"
         style={{ opacity: engOpacity, y: engY }}
+        initial={{ opacity: 0, y: 50 }}
         className="fixed inset-y-0 left-0 w-full md:w-1/2 flex flex-col justify-end md:justify-center px-6 pb-24 md:pb-0 md:px-20"
       >
         <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4 md:mb-6">
@@ -77,6 +79,7 @@ export default function StoryOverlays() {
       <motion.div 
         id="noise-cancelling"
         style={{ opacity: ncOpacity, y: ncY }}
+        initial={{ opacity: 0, y: 50 }}
         className="fixed inset-y-0 right-0 w-full md:w-1/2 flex flex-col justify-end md:justify-center px-6 pb-24 md:pb-0 md:px-20 items-start md:items-end text-left md:text-right"
       >
         <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4 md:mb-6">
@@ -99,6 +102,7 @@ export default function StoryOverlays() {
       <motion.div 
         id="specs"
         style={{ opacity: soundOpacity, y: soundY }}
+        initial={{ opacity: 0, y: 50 }}
         className="fixed inset-y-0 left-0 w-full md:w-1/2 flex flex-col justify-end md:justify-center px-6 pb-24 md:pb-0 md:px-20"
       >
         <div className="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/80 to-transparent -z-10 opacity-90 md:opacity-80" />
@@ -120,6 +124,7 @@ export default function StoryOverlays() {
       <motion.div 
         id="buy"
         style={{ opacity: ctaOpacity, y: ctaY }}
+        initial={{ opacity: 0, y: 50 }}
         className="fixed inset-x-0 bottom-8 md:bottom-24 flex flex-col items-center text-center px-4 md:px-6 pointer-events-auto"
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-brand-blue/20 via-brand-dark/0 to-transparent -z-10 scale-[2.0] md:scale-[2.0] opacity-50 blur-2xl pointer-events-none" />

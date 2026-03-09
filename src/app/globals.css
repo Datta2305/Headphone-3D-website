@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-brand-dark text-white/90 antialiased overflow-x-hidden selection:bg-brand-blue/30 selection:text-white overscroll-none;
+    @apply bg-brand-dark text-white/90 antialiased selection:bg-brand-blue/30 selection:text-white overscroll-none;
   }
 }
 

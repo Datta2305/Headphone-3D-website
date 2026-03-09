@@ -4,7 +4,7 @@ import StoryOverlays from "@/components/StoryOverlays";
 
 export default function Home() {
   return (
-    <main className="bg-brand-dark min-h-screen selection:bg-brand-blue/30 selection:text-white">
+    <main className="bg-brand-dark min-h-screen selection:bg-brand-blue/30 selection:text-white overflow-x-hidden">
       <Navbar />
 
       {/* 
